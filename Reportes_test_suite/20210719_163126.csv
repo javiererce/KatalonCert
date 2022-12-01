@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_3,Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:32,53.415s,PASSED
+,,,,,,,
+Test Cases/Mouse_double_click/Test_1,Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,8.614s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,3.164s,PASSED
+"navigateToUrl(""https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"")",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,1.697s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.182s,PASSED
+waitForPageLoad(30),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.313s,PASSED
+"click(findTestObject(""Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""))",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,1.037s,PASSED
+"waitForElementClickable(findTestObject(""Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""), 5)",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.529s,PASSED
+"doubleClick(findTestObject(""Object Repository/Double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""))",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.478s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.665s,PASSED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over,Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,13.219s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,1.237s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,3.660s,PASSED
+waitForPageLoad(40),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.021s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.175s,PASSED
+"mouseOver(findTestObject(""Mouse_over/Woman""))",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.600s,PASSED
+delay(3),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,3.038s,PASSED
+"mouseOver(findTestObject(""Mouse_over/Dress""))",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.462s,PASSED
+delay(3),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,3.004s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,0.645s,PASSED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over2,Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:32,15.620s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:31,1.226s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 91.0.4472.124,,,19/07/2021 16:31,19/07/2021 16:32,2.696s,PASSED
+waitForPageLoad(40),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.021s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.176s,PASSED
+"mouseOver(findTestObject(""Mouse_over/Woman""))",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.567s,PASSED
+delay(3),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,3.003s,PASSED
+"mouseOverOffset(findTestObject(""Mouse_over/Woman""), 80, 0)",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.439s,PASSED
+delay(3),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,3.003s,PASSED
+"rightClick(findTestObject(""Mouse_over/Woman""))",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.454s,PASSED
+delay(3),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,3.002s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.633s,PASSED
+,,,,,,,
+Test Cases/Navegador/Navegador,Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,6.051s,PASSED
+"openBrowser(""https://demoqa.com/text-box"")",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,4.673s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.149s,PASSED
+page_url = getUrl(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.090s,PASSED
+print(page_url),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.005s,PASSED
+Titulo = getWindowTitle(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.028s,PASSED
+"print(""titiulo de la pagina"" + Titulo)",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.000s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.705s,PASSED
+,,,,,,,
+Test Cases/Objecto_xpath/Caso_xpath,Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,9.128s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,1.234s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,2.649s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.132s,PASSED
+"setText(findTestObject(""Objeto_xpath/Campo_nombre""), ""Rodrigo"")",Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,1.060s,PASSED
+delay(3),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,3.002s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,19/07/2021 16:32,19/07/2021 16:32,0.658s,PASSED

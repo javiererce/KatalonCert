@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Integracion_2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>d1e2f748-4ffa-4b64-abf0-e632af99b1ca</testSuiteGuid>
+   <testCaseLink>
+      <guid>74491bb2-5852-4b6f-8c1a-1996ca456f56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BUCLES/Reto_while</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>602e4a97-263c-477a-bffb-fc78b230dc91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Condicionales_If/Test_1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7b08866-5beb-4f20-a771-25c764d98f01</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a36047cb-dacd-4bfe-9efb-283eadd2ab96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Condicionales_If/Test_2</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d318fee7-97e1-4110-8739-ee4bbbd944d8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7530696c-1e96-4278-b28f-5fd65e145a0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Condicionales_If/Test_3</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e040fe7c-1688-4d8a-bdb1-a9ea26511b83</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74918429-9875-46cc-bf3d-7354679e62b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Condicionales_If/Test_4</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f6349c2-9430-49bd-8f6c-59be3de73080</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ab66abd-65a4-41c6-bdcc-73b0e743006a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>13d768d8-bddf-4d0f-b704-f1b7ec000d0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Condicionales_If/Test_2</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d318fee7-97e1-4110-8739-ee4bbbd944d8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4953ad03-7458-4ccd-b0c6-f5e4ec8a367f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Condicionales_If/Test_1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7b08866-5beb-4f20-a771-25c764d98f01</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>273db7a8-c773-4594-b98f-8c51f3dca8b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Google/google</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

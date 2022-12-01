@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "26ADA99864CA426BC50A755D545781B5",
+  "keywordClasses": [
+    {
+      "name": "com.helper.browser.OpenBrowser",
+      "keywordMethods": [
+        {
+          "name": "OpenBro",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

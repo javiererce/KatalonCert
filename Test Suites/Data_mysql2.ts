@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Data_mysql2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>eb804e77-180a-48c8-b77c-02877dcfd1bc</testSuiteGuid>
+   <testCaseLink>
+      <guid>a04f9854-a98d-4775-8c13-646e1a4d32ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Drive_excel/Drive_excel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3a2f7029-a1bf-4d58-bf07-1443892e2845</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_excel/Data_mysql2</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3a2f7029-a1bf-4d58-bf07-1443892e2845</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nombre</value>
+         <variableId>84c8f7ae-af74-469a-9d4f-d89ffefd54ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a2f7029-a1bf-4d58-bf07-1443892e2845</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>apellido</value>
+         <variableId>7118a1bb-c64f-4d2f-8179-76f110f56584</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a2f7029-a1bf-4d58-bf07-1443892e2845</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>e9c93bbf-5c21-4ccd-b047-bd46d43dee13</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

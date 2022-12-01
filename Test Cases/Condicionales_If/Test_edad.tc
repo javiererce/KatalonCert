@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_edad</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2361d3df-e0ee-4cf6-ba1b-12caf61a2442</testCaseGuid>
+   <variable>
+      <defaultValue>500</defaultValue>
+      <description></description>
+      <id>a5496b39-3c2a-45cc-a667-71bb3712acdb</id>
+      <masked>false</masked>
+      <name>edad</name>
+   </variable>
+</TestCaseEntity>

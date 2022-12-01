@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>749c8fcf-6663-4ec8-9e45-e090466d32ca</testCaseGuid>
+   <variable>
+      <defaultValue>0.5</defaultValue>
+      <description></description>
+      <id>be2d64c4-ceb6-466e-931d-ecdfa52af1cf</id>
+      <masked>false</masked>
+      <name>tiempo</name>
+   </variable>
+</TestCaseEntity>

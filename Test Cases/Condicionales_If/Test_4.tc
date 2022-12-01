@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa947173-e025-4ed6-a132-06e755faaae4</testCaseGuid>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>8f6349c2-9430-49bd-8f6c-59be3de73080</id>
+      <masked>false</masked>
+      <name>num</name>
+   </variable>
+   <variable>
+      <defaultValue>'pedro\r\n'</defaultValue>
+      <description></description>
+      <id>6ab66abd-65a4-41c6-bdcc-73b0e743006a</id>
+      <masked>false</masked>
+      <name>nombre</name>
+   </variable>
+</TestCaseEntity>

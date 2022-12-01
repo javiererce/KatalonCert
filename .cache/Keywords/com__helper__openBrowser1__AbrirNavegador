@@ -1,0 +1,48 @@
+{
+  "keywordFileContentHash": "A59EFCA36FA0A3883D65B9F0A9F81C9B",
+  "keywordClasses": [
+    {
+      "name": "com.helper.openBrowser1.AbrirNavegador",
+      "keywordMethods": [
+        {
+          "name": "OpenNav",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "OpenNav2",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "t",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Integer",
+                "unresolvedClassName": "Integer",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
