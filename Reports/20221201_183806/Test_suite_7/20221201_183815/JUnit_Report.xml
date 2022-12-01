@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_suite_7" time="12.594" tests="1" failures="0" errors="0">
+   <testsuite name="Test_suite_7" tests="1" failures="0" errors="0" time="12.594" skipped="0" timestamp="2022-12-01 18:38:51" hostname="javie - host.docker.internal" id="Test Suites/Test_suite_7">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221201_183806\\Test_suite_7\\20221201_183815"/>
+         <property name="logFiles" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221201_183806\\Test_suite_7\\20221201_183815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="javie - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.5304.122"/>
+         <property name="hostAddress" value="192.168.0.123"/>
+         <property name="sessionId" value="0c2eba7d3c3ba497a4dfe3bb4b16fc5f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Variables/Variables" time="12.323" classname="Test Cases/Variables/Variables" status="PASSED">
+         <system-out><![CDATA[2022-12-01 18:38:52 - [TEST_CASE][PASSED] - Test Cases/Variables/Variables: Test Cases/Variables/Variables
+
+2022-12-01 18:38:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-01 18:38:52 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-12-01 18:38:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-01 18:38:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-01 18:38:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables/Page_ToolsQA/button_Add")): Object: 'Object Repository/Variables/Page_ToolsQA/button_Add' is clicked on
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables/Page_ToolsQA/button_Add' is clicked on
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_First Name_firstName"), "Juan"): Text 'Juan' is set on object 'Object Repository/Variables/Page_ToolsQA/input_First Name_firstName'
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Variables/Page_ToolsQA/input_First Name_firstName'
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName")): Object: 'Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName' is clicked on
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName' is clicked on
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName"), "Perez"): Text 'Perez' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName'
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Text 'Perez' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName'
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Email_userEmail"), "juan@gmail.com"): Text 'juan@gmail.com' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Text 'juan@gmail.com' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Age_age"), "22"): Text '22' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Age_age'
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Text '22' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Age_age'
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Salary_salary"), "35000"): Text '35000' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Salary_salary'
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Text '35000' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Salary_salary'
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Department_department"), "Informatica"): Text 'Informatica' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Department_department'
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Text 'Informatica' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Department_department'
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Department_department")): Object: 'Object Repository/Variables/Page_ToolsQA/input_Department_department' is right clicked on
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables/Page_ToolsQA/input_Department_department' is right clicked on
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables/Page_ToolsQA/div_Submit")): Object: 'Object Repository/Variables/Page_ToolsQA/div_Submit' is clicked on
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables/Page_ToolsQA/div_Submit' is clicked on
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Variables/Page_ToolsQA/input_Department_department"), "InformÃ¡tica"): Text 'InformÃ¡tica' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Department_department'
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Text 'InformÃ¡tica' is set on object 'Object Repository/Variables/Page_ToolsQA/input_Department_department'
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables/Page_ToolsQA/div_Submit")): Object: 'Object Repository/Variables/Page_ToolsQA/div_Submit' is clicked on
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables/Page_ToolsQA/div_Submit' is clicked on
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Variables/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Variables/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Variables/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-01 18:39:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-01 18:38:51 - [TEST_SUITE][PASSED] - Test_suite_7: Test Cases/Variables/Variables]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

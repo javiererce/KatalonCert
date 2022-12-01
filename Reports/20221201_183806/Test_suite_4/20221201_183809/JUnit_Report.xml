@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_suite_4" time="36.223" tests="3" failures="0" errors="0">
+   <testsuite name="Test_suite_4" tests="3" failures="0" errors="0" time="36.223" skipped="0" timestamp="2022-12-01 18:38:30" hostname="javie - host.docker.internal" id="Test Suites/Test_suite_4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221201_183806\\Test_suite_4\\20221201_183809"/>
+         <property name="logFiles" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221201_183806\\Test_suite_4\\20221201_183809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="javie - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Firefox 107.0"/>
+         <property name="hostAddress" value="192.168.0.123"/>
+         <property name="sessionId" value="ba8a268b-736f-46c9-a767-588524e1371b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Prueba_1/Caso_1" time="13.252" classname="Test Cases/Prueba_1/Caso_1" status="PASSED">
+         <system-out><![CDATA[2022-12-01 18:38:30 - [TEST_CASE][PASSED] - Test Cases/Prueba_1/Caso_1: Test Cases/Prueba_1/Caso_1
+
+2022-12-01 18:38:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-01 18:38:30 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2022-12-01 18:38:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-01 18:38:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-01 18:38:33 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-12-01 18:38:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-12-01 18:38:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-01 18:38:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-01 18:38:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Prueba_1/Page_ToolsQA/div_Elements_card-up"), 0): Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up' successfully
+
+2022-12-01 18:38:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2022-12-01 18:38:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up' successfully
+
+2022-12-01 18:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up")): Object: 'Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up' is clicked on
+
+2022-12-01 18:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up' is clicked on
+
+2022-12-01 18:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/span_Text Box")): Object: 'Object Repository/Prueba_1/Page_ToolsQA/span_Text Box' is clicked on
+
+2022-12-01 18:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_ToolsQA/span_Text Box' is clicked on
+
+2022-12-01 18:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName")): Object: 'Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName' is clicked on
+
+2022-12-01 18:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName' is clicked on
+
+2022-12-01 18:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Prueba_1/Page_ToolsQA/input_Full Name_userName"), "Ljubo"): Text 'Ljubo' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName'
+
+2022-12-01 18:38:40 - [MESSAGE][PASSED] - Text 'Ljubo' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName'
+
+2022-12-01 18:38:40 - [TEST_STEP][PASSED] - nombre = getAttribute(findTestObject("Prueba_1/Page_ToolsQA/input_Full Name_userName"), "value"): Attribute 'value' of object 'Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName' is: 'Ljubo'
+
+2022-12-01 18:38:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Prueba_1/Page_ToolsQA/input_Full Name_userName' is: 'Ljubo'
+
+2022-12-01 18:38:40 - [TEST_STEP][PASSED] - print(nombre): null
+
+2022-12-01 18:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/input_Email_userEmail"), "Ljubo@gmail.com"): Text 'Ljubo@gmail.com' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-01 18:38:41 - [MESSAGE][PASSED] - Text 'Ljubo@gmail.com' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-01 18:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/textarea_Current Address_currentAddress"), "direcciÃ³n_uno"): Text 'direcciÃ³n_uno' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-12-01 18:38:41 - [MESSAGE][PASSED] - Text 'direcciÃ³n_uno' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-12-01 18:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "direcciÃ³n dos"): Text 'direcciÃ³n dos' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-12-01 18:38:41 - [MESSAGE][PASSED] - Text 'direcciÃ³n dos' is set on object 'Object Repository/Prueba_1/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-12-01 18:38:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Prueba_1/Page_ToolsQA/button_Submit"), 0): Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/button_Submit' successfully
+
+2022-12-01 18:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2022-12-01 18:38:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/button_Submit' successfully
+
+2022-12-01 18:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Prueba_1/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-01 18:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-01 18:38:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-01 18:38:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prueba_1/Caso_2" time="12.378" classname="Test Cases/Prueba_1/Caso_2" status="PASSED">
+         <system-out><![CDATA[2022-12-01 18:38:43 - [TEST_CASE][PASSED] - Test Cases/Prueba_1/Caso_2: Test Cases/Prueba_1/Caso_2
+
+2022-12-01 18:38:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-01 18:38:43 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2022-12-01 18:38:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-01 18:38:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-01 18:38:46 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-12-01 18:38:51 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-12-01 18:38:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-01 18:38:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-01 18:38:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Prueba_1/Page_ToolsQA/div_Elements_card-up"), 0): Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up' successfully
+
+2022-12-01 18:38:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2022-12-01 18:38:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/div_Elements_card-up' successfully
+
+2022-12-01 18:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/div_Elements_card-up")): Object: 'Object Repository/Prueba_2/Page_ToolsQA/div_Elements_card-up' is clicked on
+
+2022-12-01 18:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_ToolsQA/div_Elements_card-up' is clicked on
+
+2022-12-01 18:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/li_Text Box")): Object: 'Object Repository/Prueba_2/Page_ToolsQA/li_Text Box' is clicked on
+
+2022-12-01 18:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_ToolsQA/li_Text Box' is clicked on
+
+2022-12-01 18:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/input_Full Name_userName"), "Ljubo"): Text 'Ljubo' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/input_Full Name_userName'
+
+2022-12-01 18:38:53 - [MESSAGE][PASSED] - Text 'Ljubo' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/input_Full Name_userName'
+
+2022-12-01 18:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/input_Email_userEmail"), "Ljubo@gmail.com"): Text 'Ljubo@gmail.com' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-01 18:38:53 - [MESSAGE][PASSED] - Text 'Ljubo@gmail.com' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-01 18:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dir uno"): Text 'Dir uno' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-12-01 18:38:53 - [MESSAGE][PASSED] - Text 'Dir uno' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-12-01 18:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "dir dos"): Text 'dir dos' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-12-01 18:38:53 - [MESSAGE][PASSED] - Text 'dir dos' is set on object 'Object Repository/Prueba_2/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-12-01 18:38:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Prueba_1/Page_ToolsQA/button_Submit"), 0): Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/button_Submit' successfully
+
+2022-12-01 18:38:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2022-12-01 18:38:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Prueba_1/Page_ToolsQA/button_Submit' successfully
+
+2022-12-01 18:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Prueba_2/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-01 18:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-01 18:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/div_Text Box")): Object: 'Object Repository/Prueba_2/Page_ToolsQA/div_Text Box' is clicked on
+
+2022-12-01 18:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_ToolsQA/div_Text Box' is clicked on
+
+2022-12-01 18:38:54 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Prueba_2/Page_ToolsQA/div_Text Box")): Object: 'Object Repository/Prueba_2/Page_ToolsQA/div_Text Box' is right clicked on
+
+2022-12-01 18:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_ToolsQA/div_Text Box' is right clicked on
+
+2022-12-01 18:38:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Prueba_2/Page_ToolsQA/div_Text Box"), "Text Box"): Actual text and expected text of test object 'Object Repository/Prueba_2/Page_ToolsQA/div_Text Box' are matched.
+
+2022-12-01 18:38:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Prueba_2/Page_ToolsQA/div_Text Box' are matched.
+
+2022-12-01 18:38:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-01 18:38:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_select/Reto_select" time="10.387" classname="Test Cases/Reto_select/Reto_select" status="PASSED">
+         <system-out><![CDATA[2022-12-01 18:38:55 - [TEST_CASE][PASSED] - Test Cases/Reto_select/Reto_select: Test Cases/Reto_select/Reto_select
+
+2022-12-01 18:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-01 18:38:56 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2022-12-01 18:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-01 18:38:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-01 18:38:58 - [TEST_STEP][PASSED] - navigateToUrl("https://testsheepnz.github.io/BasicCalculator.html"): Navigate to 'https://testsheepnz.github.io/BasicCalculator.html' successfully
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Navigate to 'https://testsheepnz.github.io/BasicCalculator.html' successfully
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Reto_select/Campo_1"), 0): Scroll to object 'Object Repository/Reto_select/Campo_1' successfully
+
+2022-12-01 18:39:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Reto_select/Campo_1' successfully
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_select/Campo_1"), "10"): Text '10' is set on object 'Object Repository/Reto_select/Campo_1'
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Reto_select/Campo_1'
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - a = getAttribute(findTestObject("Reto_select/Campo_1"), "value"): Attribute 'value' of object 'Object Repository/Reto_select/Campo_1' is: '10'
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Reto_select/Campo_1' is: '10'
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - print("Valor de a: " + a): null
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_select/Campo_2"), "5"): Text '5' is set on object 'Object Repository/Reto_select/Campo_2'
+
+2022-12-01 18:39:01 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Reto_select/Campo_2'
+
+2022-12-01 18:39:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Reto_select/Seleccionar_Operacion"), "Multiply", false): All options with label 'Multiply' are selected in object 'Object Repository/Reto_select/Seleccionar_Operacion' 
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - All options with label 'Multiply' are selected in object 'Object Repository/Reto_select/Seleccionar_Operacion' 
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Reto_select/Calcular")): Object: 'Object Repository/Reto_select/Calcular' is clicked on
+
+2022-12-01 18:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_select/Calcular' is clicked on
+
+2022-12-01 18:39:02 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0,5 second(s)
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - Resultado_1 = getText(findTestObject("Reto_select/Respuesta")): Text of object 'Object Repository/Reto_select/Respuesta' is: ''
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_select/Respuesta' is: ''
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - print("Hola" + Resultado_1): null
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Reto_select/Limpiar")): Object: 'Object Repository/Reto_select/Limpiar' is clicked on
+
+2022-12-01 18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_select/Limpiar' is clicked on
+
+2022-12-01 18:39:03 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0,5 second(s)
+
+2022-12-01 18:39:04 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+2022-12-01 18:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_select/Campo_1"), "50"): Text '50' is set on object 'Object Repository/Reto_select/Campo_1'
+
+2022-12-01 18:39:04 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Reto_select/Campo_1'
+
+2022-12-01 18:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_select/Campo_2"), "5"): Text '5' is set on object 'Object Repository/Reto_select/Campo_2'
+
+2022-12-01 18:39:04 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Reto_select/Campo_2'
+
+2022-12-01 18:39:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Reto_select/Seleccionar_Operacion"), "Divide", false): All options with label 'Divide' are selected in object 'Object Repository/Reto_select/Seleccionar_Operacion' 
+
+2022-12-01 18:39:04 - [MESSAGE][PASSED] - All options with label 'Divide' are selected in object 'Object Repository/Reto_select/Seleccionar_Operacion' 
+
+2022-12-01 18:39:04 - [TEST_STEP][PASSED] - click(findTestObject("Reto_select/Calcular")): Object: 'Object Repository/Reto_select/Calcular' is clicked on
+
+2022-12-01 18:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_select/Calcular' is clicked on
+
+2022-12-01 18:39:04 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0,5 second(s)
+
+2022-12-01 18:39:05 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+2022-12-01 18:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Reto_select/Limpiar")): Object: 'Object Repository/Reto_select/Limpiar' is clicked on
+
+2022-12-01 18:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_select/Limpiar' is clicked on
+
+2022-12-01 18:39:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-01 18:39:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-01 18:38:30 - [TEST_SUITE][PASSED] - Test_suite_4: Test Cases/Reto_select/Reto_select]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
