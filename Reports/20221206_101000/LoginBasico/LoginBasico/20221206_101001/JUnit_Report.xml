@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginBasico" time="12.266" tests="1" failures="0" errors="0">
+   <testsuite name="LoginBasico" tests="1" failures="0" errors="0" time="12.266" skipped="0" timestamp="2022-12-06 10:10:09" hostname="javie - host.docker.internal" id="Test Suites/LoginBasico/LoginBasico">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221206_101000\\LoginBasico\\LoginBasico\\20221206_101001"/>
+         <property name="logFiles" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221206_101000\\LoginBasico\\LoginBasico\\20221206_101001\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="javie - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Firefox 107.0"/>
+         <property name="hostAddress" value="192.168.0.123"/>
+         <property name="sessionId" value="327653c9-0559-4769-8675-a8c86d4be416"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginBasico" time="12.069" classname="Test Cases/Login/LoginBasico" status="PASSED">
+         <system-out><![CDATA[2022-12-06 10:10:09 - [TEST_CASE][PASSED] - Test Cases/Login/LoginBasico: Test Cases/Login/LoginBasico
+
+2022-12-06 10:10:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-06 10:10:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-06 10:10:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-06 10:10:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-06 10:10:14 - [TEST_STEP][PASSED] - navigateToUrl("https://testingqarvn.com.es/prueba-de-campos-checkbox/"): Navigate to 'https://testingqarvn.com.es/prueba-de-campos-checkbox/' successfully
+
+2022-12-06 10:10:16 - [MESSAGE][PASSED] - Navigate to 'https://testingqarvn.com.es/prueba-de-campos-checkbox/' successfully
+
+2022-12-06 10:10:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-06 10:10:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-06 10:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Nombre_field_29"), "javier"): Text 'javier' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Nombre_field_29'
+
+2022-12-06 10:10:17 - [MESSAGE][PASSED] - Text 'javier' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Nombre_field_29'
+
+2022-12-06 10:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Apellidos_field_30"), "erce"): Text 'erce' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Apellidos_field_30'
+
+2022-12-06 10:10:17 - [MESSAGE][PASSED] - Text 'erce' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Apellidos_field_30'
+
+2022-12-06 10:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Email_field_31"), "javier@gmail.com"): Text 'javier@gmail.com' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Email_field_31'
+
+2022-12-06 10:10:18 - [MESSAGE][PASSED] - Text 'javier@gmail.com' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Email_field_31'
+
+2022-12-06 10:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Phone_field_32"), "45857712"): Text '45857712' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Phone_field_32'
+
+2022-12-06 10:10:19 - [MESSAGE][PASSED] - Text '45857712' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Phone_field_32'
+
+2022-12-06 10:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/textarea_Direccin_field_33"), "direccion uno"): Text 'direccion uno' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/textarea_Direccin_field_33'
+
+2022-12-06 10:10:19 - [MESSAGE][PASSED] - Text 'direccion uno' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/textarea_Direccin_field_33'
+
+2022-12-06 10:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/label_JS")): Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/label_JS' is clicked on
+
+2022-12-06 10:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/label_JS' is clicked on
+
+2022-12-06 10:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/button_Submit")): Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-06 10:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-06 10:10:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-06 10:10:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-06 10:10:09 - [TEST_SUITE][PASSED] - LoginBasico: Test Cases/Login/LoginBasico]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

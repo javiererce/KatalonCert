@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginBasico" time="46.829" tests="1" failures="0" errors="0">
+   <testsuite name="LoginBasico" tests="1" failures="0" errors="0" time="46.829" skipped="0" timestamp="2022-12-06 09:57:50" hostname="javie - host.docker.internal" id="Test Suites/LoginBasico/LoginBasico">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221206_095742\\LoginBasico\\LoginBasico\\20221206_095742"/>
+         <property name="logFiles" value="C:\\Users\\javie\\git\\KatalonCert\\Reports\\20221206_095742\\LoginBasico\\LoginBasico\\20221206_095742\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="javie - host.docker.internal"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;103.0.5060.53&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.jvrl9e&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:34073&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJqYXZpZXJlcmNlQGhvdG1haWwuY29tIiwidXBuIjoiMTA3NTMxNSIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6Ik1heGltaWxpYW5vIiwiZmFtaWx5X25hbWUiOiJFcmNlIiwiZW1haWwiOiJqYXZpZXJlcmNlQGhvdG1haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImNyZWF0ZWRfYXQiOjE2Njc4NDIxMjcsInVwZGF0ZWRfYXQiOjE2NzAzMzEyMzksImFtciI6WyJwd2QiXSwiaWF0IjoxNjcwMzMxNDUyLCJleHAiOjE2NzA5MzYyNTIsImp0aSI6IjY1Yzc3YmJiLTkwZjYtNGUxYS05ZDMwLThlYWRmZjMwYTM4OCIsImlzcyI6ImthdGFsb24tYXV0aCJ9.fF4uhXO6rq31CG66bFifD46d8j2vFu3wKabil6bkwR8NpO3rbnkYwjROmAnBIcr5fVYxR3oSyAy2BMtnSM8XsjEAd-2LuzT1McBzgZwWVjg4Ig3T3SFWVjFz559HolAmvKjH_KpMQi3wGcmFuqtcIjZbyceWcs4h5rlxf4w_WVyTwoQlyjNlj1kAQhCr8zTm7sxEURtAP1F5vPl6MoLP4X-hr5zGZZ8xePliKyNhOattz2cjGITicGnsn6yTU3tZhkSiTmX2zXFYtoEyPFbWt8OvW4j2Rno2Jv-GoRcpWaVPn4D6odUTkOukfmq7GI3jUS206lO5P3tfEm4eXMlDqQ&quot;,
+    &quot;userId&quot;: 1075315,
+    &quot;organizationId&quot;: &quot;978561&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;javiererce@hotmail.com&quot;
+  },
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;0ee3dd04-cadc-43be-a138-6451dc630804&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.74.8:4444/session/c60754c81590332182da11c16f5c77f1/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;103.0.5060.53&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.48.74.8:4444/session/c60754c81590332182da11c16f5c77f1/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.48.74.8:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 103.0.5060.53"/>
+         <property name="hostAddress" value="192.168.0.123"/>
+         <property name="sessionId" value="c60754c81590332182da11c16f5c77f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginBasico" time="46.627" classname="Test Cases/Login/LoginBasico" status="PASSED">
+         <system-out><![CDATA[2022-12-06 09:57:51 - [TEST_CASE][PASSED] - Test Cases/Login/LoginBasico: Test Cases/Login/LoginBasico
+
+2022-12-06 09:57:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-06 09:57:51 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-12-06 09:57:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-12-06 09:57:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-12-06 09:57:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=978561, tunnelId=, usingTunnel=false}']
+
+2022-12-06 09:57:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-12-06 09:57:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-06 09:58:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-06 09:58:12 - [TEST_STEP][PASSED] - navigateToUrl("https://testingqarvn.com.es/prueba-de-campos-checkbox/"): Navigate to 'https://testingqarvn.com.es/prueba-de-campos-checkbox/' successfully
+
+2022-12-06 09:58:13 - [MESSAGE][PASSED] - Navigate to 'https://testingqarvn.com.es/prueba-de-campos-checkbox/' successfully
+
+2022-12-06 09:58:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-06 09:58:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-06 09:58:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Nombre_field_29"), "javier"): Text 'javier' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Nombre_field_29'
+
+2022-12-06 09:58:17 - [MESSAGE][PASSED] - Text 'javier' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Nombre_field_29'
+
+2022-12-06 09:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Apellidos_field_30"), "erce"): Text 'erce' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Apellidos_field_30'
+
+2022-12-06 09:58:21 - [MESSAGE][PASSED] - Text 'erce' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Apellidos_field_30'
+
+2022-12-06 09:58:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Email_field_31"), "javier@gmail.com"): Text 'javier@gmail.com' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Email_field_31'
+
+2022-12-06 09:58:25 - [MESSAGE][PASSED] - Text 'javier@gmail.com' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Email_field_31'
+
+2022-12-06 09:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Phone_field_32"), "45857712"): Text '45857712' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Phone_field_32'
+
+2022-12-06 09:58:29 - [MESSAGE][PASSED] - Text '45857712' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/input_Phone_field_32'
+
+2022-12-06 09:58:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/textarea_Direccin_field_33"), "direccion uno"): Text 'direccion uno' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/textarea_Direccin_field_33'
+
+2022-12-06 09:58:33 - [MESSAGE][PASSED] - Text 'direccion uno' is set on object 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/textarea_Direccin_field_33'
+
+2022-12-06 09:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/label_JS")): Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/label_JS' is clicked on
+
+2022-12-06 09:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/label_JS' is clicked on
+
+2022-12-06 09:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/button_Submit")): Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-06 09:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Prueba de campos Checkbox  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-06 09:58:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-06 09:58:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-06 09:57:50 - [TEST_SUITE][PASSED] - LoginBasico: Test Cases/Login/LoginBasico]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
